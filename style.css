@@ -1,0 +1,34 @@
+section {
+  height: 500px;
+  background-color: coral;
+  border: solid white 3px
+}
+
+.hero {
+   background-color: dimgray;
+   height: 100vh;
+   color: white;
+   font-size: 40px;
+}
+
+footer {
+
+  height: 500px;
+  background-color: rgb(167, 193, 241);
+}
+
+nav {
+
+  display: flex;
+}
+
+ul {
+
+  display: flex;
+}
+
+li {
+
+  width: 200px
+  
+}
