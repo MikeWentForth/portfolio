@@ -9,15 +9,31 @@ section {
 
 .hero {
    background-color: rgb(79, 153, 177);
-   height: 70vh;
+   height: 60vh;
    color: white;
    font-size: 25px;
    }
+
+.hero-area {
+
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+  }
+  
 
 footer {
   height: 500px;
   background-color: rgb(75, 178, 152);
   border: solid white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  color: white;
+  text-align: center;
 }
 
 nav {
@@ -26,8 +42,6 @@ nav {
   flex-direction: row;
   align-items: flex-end;
   width: 10px;
-  
-
   }
 
 ul {
@@ -35,6 +49,7 @@ ul {
   list-style-type: none;
   justify-content:space-between;
   font-size: 20px;
+
   }
   
 
@@ -48,12 +63,15 @@ li {
   h1 {
   font-size: 40px;
   margin: 0;
+  
   }
 
   h2 {
     font-size: 50px;
     color: white;
-    margin: 20;
+    margin: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
     align-items: center;
     
   }
@@ -61,7 +79,9 @@ li {
   p { 
     margin: 0;
     font-weight: 300;
-    font-size: 26px;
+    font-size: 25px;
+    margin-right: 50px;
+    color: white;
   }
 
   .subtext {
@@ -70,19 +90,11 @@ li {
     font-weight: 300;
   }
 
-.hero-area {
-
-  display: flex;
-  height: 100%;
-  justify-content: space-between;
-  align-items: center;
-  color: white;
-  font-size: 20px;
-}
 
 .hero-text {
   margin-left: 80px;
   margin-bottom: 200px;
+  
  }
 
 .button {
@@ -110,15 +122,16 @@ color: darkcyan;}
 
 .socials {
   padding-bottom: 20px;
-}
+  }
 
 .logo {
-  height: 200px;
+  height: 160px;
   margin: 30px;
 }
 
 .social {
-margin: 20 px;
+margin: 20px;
+
 }
 
 .sub-section {
@@ -152,8 +165,9 @@ margin: 20 px;
 .project-card {
 
   width:380px;
-  height: 500px;
+  height: 450px;
   box-shadow: 5px 5px 20px black; 
+  margin: 10px;
  }
 
 .project-container {
@@ -168,4 +182,19 @@ margin: 20 px;
   width: 250px;
   border-radius: none;
 }
+
+hr {
+
+  margin-left: 20px;
+  margin-right: 20px;
+}
  
+.project-link {
+  text-decoration: none
+  color: coral;
+}
+
+a {
+text-decoration: none;
+color: white
+}
