@@ -10,29 +10,26 @@ section {
 
 .hero {
    background-color: rgb(79, 153, 177);
-   height: 55vh;
+   height: 50vh;
    color: white;
    font-size: 25px;
    display: flex;
-   flex-direction: row;
-   justify-content: space-between;
+   justify-content: space-evenly;
    padding: 60px;
+
   }
 
 .hero-area {
 
-    display: flex;
-    flex-direction: row;
+   
     height: 100%;
-    justify-content: space-between;
-    align-items: flex-end;
     color: white;
     font-size: 20px;
   }
   
 
 footer {
-  height: 400px;
+  height: 320px;
   background-color: rgb(75, 178, 152);
   border: solid white;
   display: flex;
@@ -45,7 +42,7 @@ footer {
 
 nav {
   display: flex;
-  justify-content: space-between;
+  
 }
 
 ul {
@@ -123,12 +120,16 @@ color: rgb(52, 123, 238);}
 
 .logo {
   height: 200px;
-  margin: 10px;
+  margin-right: 100px;
 }
 
-.social {
-margin: 20px;
+.socials {
+margin: 40px;
 display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+margin-left: 100px;
+padding-bottom: 200px;
 
 }
 
