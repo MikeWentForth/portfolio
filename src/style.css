@@ -10,58 +10,65 @@ section {
 
 .hero {
    background-color: rgb(79, 153, 177);
-   height: 50vh;
+   min-height:40vh;
    color: white;
    font-size: 25px;
    display: flex;
    justify-content: space-evenly;
-   padding: 60px;
+   padding: 20px;
 
   }
 
 .hero-area {
-
-   
-    height: 100%;
+    min-height: 100%;
     color: white;
     font-size: 20px;
   }
   
 
 footer {
-  height: 320px;
   background-color: rgb(75, 178, 152);
   border: solid white;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   color: white;
-  text-align: center;
-  padding: 60px;
+ 
+  padding: 100px;
 }
 
 nav {
   display: flex;
-  
-}
+  flex-direction: wrap;
+  justify-content: space-evenly;
+ 
+  }
 
 ul {
   display: flex;
   list-style-type: none;
-  width: 500px;
-  justify-content: space-around;
+  padding: 0px;
+
+  /*justify-content: space-around; */
   font-size: 20px;
   }
+
+.link {
+  align-content: center;
+}
   
 
 li {  
   text-decoration: none;
-  width: 200px;
+  min-width: 200px;
+  align-items: center;
   }
 
   h1 {
   font-size: 60px;
   margin: 0;
+  display: flex;
+  flex-direction: column
   
   }
 
@@ -75,29 +82,34 @@ li {
     
   }
 
-  p { 
-    margin: 0;
-    font-weight: 300;
-    font-size: 25px;
-    margin-right: 50px;
+  h3 {
+
+    color: white;
+    
+  }
+
+  .p { 
+
     color: white;
   }
 
   .subtext {
 
-    font-size: 15px;
-    font-weight: 300px;
-  }
+    font-size: 20px;
+    font-weight: 30px;
+    color: white;
+    
+    }
 
 
 .hero-text {
-  margin-left: 35px;
+  margin-left: 75px;
   margin-bottom: 180px;
   }
 
 .button {
-  width: 130px;
-  height: 45px;
+  max-width: 130px;
+  min-height: 45px;
   border-radius: 40px;
   background-color: coral;
   text-align: center;
@@ -105,6 +117,7 @@ li {
   font-weight: 300;
   padding-top: 15px;
   margin-top: 10px;
+  
 }
 
 .button:hover {
@@ -114,31 +127,44 @@ background-color: #ef744b ;
 .button:active {
 
 background-color: rgba(3, 121, 157, 0.953);
-color: rgb(52, 123, 238);}
+color: rgb(52, 123, 238);
+}
 
 
 
 .logo {
-  height: 200px;
+  max-height: 240px;
   margin-right: 100px;
-}
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  }
 
 .socials {
-margin: 40px;
-display: flex;
-flex-direction: row;
-justify-content: space-evenly;
-margin-left: 100px;
-padding-bottom: 200px;
-
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+ /* justify-content: space-around; 
+  margin-right: 90px;
+  padding-bottom: 200px; */
 }
+
+.social {
+  margin-right: 1em;
+}
+
+
 
 .sub-section {
-
   display: flex;
+  flex-direction: wrap;
   justify-content: space-around;
-  padding: 80px;
+  padding: 40px;
+
 }
+
+
+
 
 .sub-section-alternative {
 
@@ -149,46 +175,62 @@ padding-bottom: 200px;
   
 }
 
-.headshot {
-  width: 250px;
-  position: relative;
- }
+
+
+
+.headshot 
+{
+
+box-shadow: 5px 5px 20px black;
+
+}
+
+
+
 
 .headshot-container {
+
+  max-width: 100%;
+  min-height: auto;
   display: flex;
-  justify-content: space-between;
-  border-radius: 50px;
+  direction: wrap;
+  
 }
+
 
 .project-card {
 
-  width: 420px;
-  height: 450px;
+
   box-shadow: 5px 5px 20px black; 
   margin: 20px;
   text-align: center;
  }
 
-.project-container {
+
+
+ .project-container {
   display: flex;
   justify-content: space-around;
-  border-radius: 1000px;
-  height: 500px;
+  border-radius:none;
+ 
 }
 
-@media only screen and (max-width: 1000px) {
-.project-container {
-display: flex;
-flex-wrap: wrap;
-}
-}
+
 
 .project-image { 
 
-  margin-top: 100px; 
-  width: 250px;
-  border-radius: none;
+  margin-top: 150px; 
+  max-width: 50%;
+
 }
+
+.project-image-2 {
+
+  margin-top: 150px; 
+  max-width: 100%;
+
+}
+
  
 hr {
 
@@ -197,8 +239,8 @@ hr {
 }
  
 .project-link {
-  text-decoration: none
-  color: coral;
+  text-decoration: none;
+  color: white;
 }
 
 a {
@@ -206,3 +248,53 @@ text-decoration: none;
 color: white
 }
 
+.information
+
+{
+color: white;
+
+}
+
+span 
+
+{
+
+  font-size: 28px;
+}
+
+
+
+@media all and (max-width: 800px) {
+  .hero {
+    flex-direction: column;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .headshot {
+
+    display: none;
+  }
+
+
+  .sub-section-alternative {
+    flex-direction: column;
+  }
+
+  nav {
+    display: none;
+    
+    
+}
+}
+
+
+  
+  
+
+ 
+
+
+ 
