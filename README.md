@@ -10,4 +10,3 @@ HTML, CSS
 
 ### Contact information ###
 
-For more information about the services I offer for your website needs, please contact me at themikewallace@gmail.com
