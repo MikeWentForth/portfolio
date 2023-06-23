@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# portfolio
-=======
 # Welcome to Mike's Portfolio Page! #
 
 ## Introduction ##
