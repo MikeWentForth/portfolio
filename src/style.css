@@ -292,7 +292,7 @@ span
 
 }
 
-@media all and (max-width: 1600px) {
+/*@media all and (max-width: 1600px) {
 
   .logo {
       display: none;
