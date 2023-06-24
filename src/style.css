@@ -292,7 +292,7 @@ span
 
 }
 
-@media all and (max-width: 1620px) {
+/*@media all and (max-width: 1600px) {
 
   .logo {
       display: none;
@@ -304,7 +304,7 @@ span
 
 }
 
-@media all and (max-width: 408px) {
+@media all and (max-width: 410px) {
 
   .socials {
      display: none;
