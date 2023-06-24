@@ -213,7 +213,7 @@ box-shadow: 5px 5px 20px black;
  .project-container {
   display: flex;
   justify-content: space-around;
-  border-radius:none;
+  
  
 }
 
@@ -222,14 +222,14 @@ box-shadow: 5px 5px 20px black;
 .project-image { 
 
   margin-top: 150px; 
-  max-width: 50%;
+  max-width: 100%;
 
 }
 
 .project-image-2 {
 
   margin-top: 150px; 
-  max-width: 100%;
+  max-width: 50%;
 
 }
 
