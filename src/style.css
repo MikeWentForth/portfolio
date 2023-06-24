@@ -292,18 +292,15 @@ span
 
 }
 
-@media all and (max-width: 1550px) {
+@media all and (max-width: 1620px) {
 
   .logo {
-    
-    display: none;
+      display: none;
      }
 
      nav {
       display: none;
-      
-      
-  }
+       }
 
 }
 
