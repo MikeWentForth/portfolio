@@ -222,12 +222,18 @@ box-shadow: 5px 5px 20px black;
 .project-image { 
 
   margin-top: 150px; 
-  max-width: 100%;
+  max-width: 50%;
 
 }
 
 .project-image-2 {
 
+  margin-top: 150px; 
+  max-width: 50%;
+
+}
+
+.project-image-3 {
   margin-top: 150px; 
   max-width: 50%;
 
